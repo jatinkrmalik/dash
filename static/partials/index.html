@@ -1,0 +1,20 @@
+<h1>Home Page</h1>
+
+<p>You should head over to the <a href="/#/about">ab page</a>.</p>
+
+<h2>Here's an Angular Demo:</h2>
+
+<div>
+    <input type="text" ng-model="yourName" placeholder="Enter a name here">
+    <hr>
+    <h1>Hello {{ yourName }}</h1>
+	
+	<table ng-table="vm.tableParams" class="table" show-filter="true">
+    <tr ng-repeat="user in $data">
+        <td title="'Name'" filter="{ name: 'text'}" sortable="'name'">
+            {{user.name}}</td>
+        <td title="'Age'" filter="{ age: 'number'}" sortable="'age'">
+            {{user.age}}</td>
+    </tr>
+</table>
+</div>

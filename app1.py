@@ -2,11 +2,13 @@ from flask import Flask,send_file
 from flask import jsonify
 from flask import request
 from flask_pymongo import PyMongo
+from pymongo import MongoClient
 
 
 app = Flask(__name__)
-#app.config['MONGO_DBNAME'] ='users'
-#app.config['MONGO_URI'] = 'mongodb://localhost:27017/users'
+app.config['MONGO_DBNAME'] ='users'
+app.config['MONGO_URI'] = 'mongodb://localhost:27017/users'
+
 
 db=PyMongo(app)
 
@@ -19,9 +21,12 @@ def index():
 
 @app.route('/user', methods=['GET'])
 def get_all_users():
-  user = mongodb.db.users
+  client = MongoClient('mongodb://localhost:27017/')
+  print "client made"
+  db = client.users
+  col=db.det
   output = []
-  for s in user.find():
+  for s in col.find():
     output.append({
         "_id": s[_id],
         "age": s[age],
@@ -38,8 +43,10 @@ def get_all_users():
 
 @app.route('/user/', methods=['GET'])
 def get_one_user(name):
-  user = mongodb.db.users.det
-  s = user.find_one({'name' : name})
+  db = client.users
+  col=db.det
+  output = []
+  s = col.find_one({'name' : name})
   if s:
     output = {'name' : s['name'], 'distance' : s['distance']}
   else:

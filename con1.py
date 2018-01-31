@@ -1,12 +1,27 @@
 from flask import Flask 
-from flask.ext.pymongo import PyMongo 
+import pymongo
+from flask_pymongo import PyMongo 
 
 app = Flask(__name__)
 
-app.config['MONGO_DBNAME'] ='mydatabase'
-app.config['MONGO_URI'] = 'mongodb://sanjay:sanjay@ds117128.mlab.com:17128/mydatabase'
+client = pymongo.MongoClient('Localhost:27017')
+db = client.sanjay
+songs = db.det4
+
 
 db=PyMongo(app)
+xxx=[
+    {
+        "_id": "11",
+        "age": 11,
+        "name": "saanjay",
+        "gender": "male",
+        "email": "111111111111111111111",
+        "phone": "1111111111111111",
+        "address": "sssssssssssssssssssss",
+        "ride_taken": 0,
+        "user_plan": 0
+    }]
 
 @app.route("/")
 def index():
@@ -14,9 +29,12 @@ def index():
 
 @app.route('/add')
 def add():
-	user = mongo.db.users
-	user.insert({'name' : 'jat'})
-	return 'Added User'
+	s=songs.find({'name':'sanjay'})
+	if s:
+        output = {'name' : s['name']}
+    else:
+        output = "No such name"
+    return jsonify({'result' : output})
 
 if __name__ == '__main__':
 	app.run(debug=True)

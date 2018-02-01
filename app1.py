@@ -23,6 +23,13 @@ def index():
 
 @app.route('/user', methods=['GET'])
 def get_all_users():
+<<<<<<< HEAD
+=======
+  client = MongoClient('mongodb://localhost:27017/')
+  print "client made"
+  db = client.users
+  col=db.det4
+>>>>>>> 42a6658084f1547af40847ebe69c170b9f55f5c1
   output = []
   for s in col.find():
     output.append({

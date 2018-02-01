@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+from flask import Flask ,render_template, request
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+	tv_show="Game of Thrones"
+	lst=[1,2,3,4,1,5,22,11,44]
+	return render_template("index.html",mylst =lst)
+
+if __name__ == '__main__':
+	app.run()
+=======
 from flask import Flask,send_file
 from flask import jsonify
 from flask import request
@@ -58,3 +71,4 @@ def add_user():
 	
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
+>>>>>>> 8be1f122bb0bd763191c3ffcc2330abf3785e65e

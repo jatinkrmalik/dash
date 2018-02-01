@@ -1,4 +1,4 @@
-from flask import Flask 
+from flask import Flask,render_template
 import pymongo
 from flask_pymongo import PyMongo 
 
@@ -31,10 +31,11 @@ def index():
 def add():
 	s=songs.find({'name':'sanjay'})
 	if s:
-        output = {'name' : s['name']}
-    else:
-        output = "No such name"
-    return jsonify({'result' : output})
+		output = {'name': s['name']}
+	else:
+		output = "No such name"
+
+	return jsonify({'result' : output})
 
 if __name__ == '__main__':
 	app.run(debug=True)

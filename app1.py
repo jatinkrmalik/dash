@@ -24,7 +24,7 @@ def get_all_users():
   client = MongoClient('mongodb://localhost:27017/')
   print "client made"
   db = client.users
-  col=db.det
+  col=db.det4
   output = []
   for s in col.find():
     output.append({

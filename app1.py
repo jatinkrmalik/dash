@@ -3,12 +3,14 @@ from flask import jsonify
 from flask import request
 from flask_pymongo import PyMongo
 from pymongo import MongoClient
+import pymongo
 
 
 app = Flask(__name__)
-app.config['MONGO_DBNAME'] ='users'
-app.config['MONGO_URI'] = 'mongodb://localhost:27017/users'
 
+client =pymongo.MongoClient('localhost:27017') 
+db = client.users
+col=db.det
 
 db=PyMongo(app)
 
@@ -21,36 +23,42 @@ def index():
 
 @app.route('/user', methods=['GET'])
 def get_all_users():
-  client = MongoClient('mongodb://localhost:27017/')
-  print "client made"
-  db = client.users
-  col=db.det
   output = []
   for s in col.find():
     output.append({
-        "_id": s[_id],
-        "age": s[age],
-        "name": s[name],
-        "gender": s[gender],
-        "email": s[email],
-        "phone": s[phone],
-        "address": s[address],
-        "ride_taken": s[ride_taken],
-        "user_plan": s[user_plan]
+        
+        "age": s["age"],
+        "name": s["name"],
+        "gender": s["gender"],
+        "email": s["email"],
+        "phone": s["phone"],
+        "address": s["address"],
+        "ride_taken": s["ride_taken"],
+        "user_plan": s["user_plan"]
     })
     
   return jsonify({'result' : output})
 
 @app.route('/user/', methods=['GET'])
-def get_one_user(name):
-  db = client.users
-  col=db.det
+def get_one_user():
+  name1 = request.args.get('name')
   output = []
-  s = col.find_one({'name' : name})
-  if s:
-    output = {'name' : s['name'], 'distance' : s['distance']}
-  else:
-    output = "No such name"
+  s=col.find_one({'name' : name1})
+  #if s:
+  output.append({
+      
+      "age": s["age"],
+      "name": s["name"],
+      "gender": s["gender"],
+      "email": s["email"],
+      "phone": s["phone"],
+      "address": s["address"],
+      "ride_taken": s["ride_taken"],
+      "user_plan": s["user_plan"]
+
+  })
+  #else:
+  #output = "No such name"
   return jsonify({'result' : output})
 
 @app.route('/user', methods=['POST'])

@@ -1,0 +1,158 @@
+{
+  "route" : 
+  [ 
+   { 
+    "plan_id": 3, 
+    "route_no": 2, 
+    "source": 4, 
+    "dest": 15, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 4, 
+    "route_no": 3, 
+    "source": 9, 
+    "dest": 19, 
+    "from_to_flag": true 
+   }, 
+   { 
+    "plan_id": 2, 
+    "route_no": 3, 
+    "source": 7, 
+    "dest": 11, 
+    "from_to_flag": true 
+   }, 
+   { 
+    "plan_id": 5, 
+    "route_no": 1, 
+    "source": 9, 
+    "dest": 18, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 2, 
+    "route_no": 7, 
+    "source": 5, 
+    "dest": 16, 
+    "from_to_flag": true 
+   }, 
+   { 
+    "plan_id": 4, 
+    "route_no": 2, 
+    "source": 4, 
+    "dest": 16, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 1, 
+    "route_no": 3, 
+    "source": 4, 
+    "dest": 19, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 1, 
+    "route_no": 7, 
+    "source": 1, 
+    "dest": 17, 
+    "from_to_flag": true 
+   }, 
+   { 
+    "plan_id": 3, 
+    "route_no": 1, 
+    "source": 6, 
+    "dest": 14, 
+    "from_to_flag": true 
+   }, 
+   { 
+    "plan_id": 5, 
+    "route_no": 7, 
+    "source": 1, 
+    "dest": 18, 
+    "from_to_flag": true 
+   }, 
+   { 
+    "plan_id": 4, 
+    "route_no": 7, 
+    "source": 6, 
+    "dest": 17, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 5, 
+    "route_no": 5, 
+    "source": 7, 
+    "dest": 10, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 1, 
+    "route_no": 3, 
+    "source": 2, 
+    "dest": 12, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 3, 
+    "route_no": 6, 
+    "source": 8, 
+    "dest": 15, 
+    "from_to_flag": true 
+   }, 
+   { 
+    "plan_id": 4, 
+    "route_no": 2, 
+    "source": 9, 
+    "dest": 19, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 2, 
+    "route_no": 4, 
+    "source": 7, 
+    "dest": 14, 
+    "from_to_flag": true 
+   }, 
+   { 
+    "plan_id": 5, 
+    "route_no": 1, 
+    "source": 6, 
+    "dest": 18, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 2, 
+    "route_no": 7, 
+    "source": 5, 
+    "dest": 14, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 1, 
+    "route_no": 7, 
+    "source": 1, 
+    "dest": 17, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 4, 
+    "route_no": 2, 
+    "source": 2, 
+    "dest": 11, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 3, 
+    "route_no": 2, 
+    "source": 3, 
+    "dest": 14, 
+    "from_to_flag": false 
+   }, 
+   { 
+    "plan_id": 3, 
+    "route_no": 4, 
+    "source": 5, 
+    "dest": 10, 
+    "from_to_flag": false 
+   } 
+]}

@@ -1,0 +1,95 @@
+{
+	"user" :
+	[
+    {
+        "phone": "+91 (960) 593-2005",
+        "email": "jennyayers@kiggle.com",
+        "gender": "female",
+        "address": "521 Baycliff Terrace, Homeworth, Washington,1489",
+        "name": "Clay Myers",
+        "shuttl_credit": 861,
+        "last_ten_trip": [2845]
+    },
+    {
+        "phone": "+91 (864) 593-3934",
+        "email": "claymyers@kiggle.com",
+        "gender": "male",
+        "address": "280 Empire Boulevard, Dowling, Minnesota,5319",
+        "name": "Gill Benjamin",
+        "shuttl_credit": 57,
+        "last_ten_trip": [9327]
+    },
+    {
+        "phone": "91 (970) 566-3291",
+        "email": "gillbenjamin@kiggle.com",
+        "gender": "male",
+        "address": "271 Loring Avenue, Kipp, Pennsylvania,8268",
+        "name": "Jimenez Mejia",
+        "shuttl_credit": 128,
+        "last_ten_trip": [3973]
+    },
+    {
+        "phone": "+91 (901) 450-2698",
+        "email": "jimenezmejia@kiggle.com",
+        "gender": "male",
+        "address": "927 Forest Place, Gallina, Palau,9487",
+        "name": "Ola Anderson",
+        "shuttl_credit": 835,
+        "last_ten_trip": [6571]
+    },
+    {
+        "phone": "+91 (831) 503-2354",
+        "email": "olaanderson@kiggle.com",
+        "gender": "female",
+        "address": "414 Clarkson Avenue, Urie, New Mexico,3477",
+        "name": "Estes Barber",
+        "shuttl_credit": 750,
+        "last_ten_trip": [8864]
+    },
+    {
+        "phone": "+91 (991) 440-3599" ,
+        "email": "estesbarber@kiggle.com",
+        "gender": "male",
+        "address": "167 Ellery Street, Washington, Colorado,6509",
+        "name": "Sheree Barrera",
+        "shuttl_credit": 520,
+        "last_ten_trip": [8711]
+    },
+    {
+        "phone": "+91 (959) 461-2440",
+        "email": "shereebarrera@kiggle.com",
+        "gender": "female",
+        "address": "706 Veterans Avenue, Stonybrook, Louisiana,7928",
+        "name": "Janie Atkins",
+        "shuttl_credit": 466,
+        "last_ten_trip": [3410]
+    },
+    {
+        "phone": "+91 (970) 401-3866",
+        "email": "janieatkins@kiggle.com",
+        "gender": "female",
+        "address": "210 Dunne Place, Efland, Montana,5510",
+        "name": "Sonja Wallace",
+        "shuttl_credit": 776,
+        "last_ten_trip": [2832]
+    },
+    {
+        "phone": "+91 (819) 575-3505",
+        "email": "sonjawallace@kiggle.com",
+        "gender": "female",
+        "address": "251 Gatling Place, Woodruff, American Samoa,6660",
+        "name": "Franks Mcneil",
+        "shuttl_credit": 725,
+        "last_ten_trip": [3341]
+    },
+    {
+        "phone": "+91 (960) 477-2163",
+        "email": "franksmcneil@kiggle.com",
+        "gender": "male",
+        "address": "291 Seaview Avenue, Eureka, Rhode Island,7516",
+        "name": "Lorrie England",
+        "shuttl_credit": 217,
+        "last_ten_trip": [3414]
+    }
+]
+}

@@ -1,0 +1,38 @@
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+
+<body>
+<h1> Inventory List </h1>
+<script>
+$(document).ready(function () {
+    $.getJSON('http://localhost:5000/all_user',
+    function (json) {
+        var tr;
+        for (var i = 0; i < json.length; i++) {
+            tr = $('<tr/>');
+            tr.append("<td>" + json[i].category + "</td>");
+            tr.append("<td>" + json[i].name + "</td>");
+            tr.append("<td>" + json[i].amount + "</td>");
+            tr.append("<td>" + json[i].location + "</td>");
+            tr.append("<td>" + json[i].date + "</td>");
+            $('#table').append(tr);
+        }
+    });
+});
+
+</script>
+
+<table id= "table">
+  <tr>
+    <th> Name of product</th>
+    <th> Category</th>
+    <th> Amount</th>
+    <th> Location</th>
+    <th> Date</th>
+  </tr>
+
+</table>
+</body>
+</html>

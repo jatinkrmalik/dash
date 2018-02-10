@@ -1,0 +1,157 @@
+{
+  "bus":[
+   { 
+    "bus_id": 0, 
+    "vender_id": 0, 
+    "driver_name": "Rosemarie Franco", 
+    "no_of_seat": 15, 
+    "route_no": 5 
+   }, 
+   { 
+    "bus_id": 1, 
+    "vender_id": 1, 
+    "driver_name": "Joanna Gallagher", 
+    "no_of_seat": 15, 
+    "route_no": 5 
+   }, 
+   { 
+    "bus_id": 2, 
+    "vender_id": 2, 
+    "driver_name": "Acosta Branch", 
+    "no_of_seat": 30, 
+    "route_no": 5 
+   }, 
+   { 
+    "bus_id": 3, 
+    "vender_id": 3, 
+    "driver_name": "Winifred Carney", 
+    "no_of_seat": 30, 
+    "route_no": 2 
+   }, 
+   { 
+    "bus_id": 4, 
+    "vender_id": 4, 
+    "driver_name": "Schneider Vazquez", 
+    "no_of_seat": 20, 
+    "route_no": 7 
+   }, 
+   { 
+    "bus_id": 5, 
+    "vender_id": 5, 
+    "driver_name": "Kristin Hurst", 
+    "no_of_seat": 10, 
+    "route_no": 2 
+   }, 
+   { 
+    "bus_id": 6, 
+    "vender_id": 6, 
+    "driver_name": "Lillian Parsons", 
+    "no_of_seat": 15, 
+    "route_no": 2 
+   }, 
+   { 
+    "bus_id": 7, 
+    "vender_id": 7, 
+    "driver_name": "Maxine Decker", 
+    "no_of_seat": 20, 
+    "route_no": 2 
+   }, 
+   { 
+    "bus_id": 8, 
+    "vender_id": 8, 
+    "driver_name": "Vanessa Jenkins", 
+    "no_of_seat": 10, 
+    "route_no": 6 
+   }, 
+   { 
+    "bus_id": 9, 
+    "vender_id": 9, 
+    "driver_name": "Holder Reyes", 
+    "no_of_seat": 30, 
+    "route_no": 3 
+   }, 
+   { 
+    "bus_id": 10, 
+    "vender_id": 10, 
+    "driver_name": "Krystal Wilcox", 
+    "no_of_seat": 20, 
+    "route_no": 5 
+   }, 
+   { 
+    "bus_id": 11, 
+    "vender_id": 11, 
+    "driver_name": "Newton Fuller", 
+    "no_of_seat": 15, 
+    "route_no": 4 
+   }, 
+   { 
+    "bus_id": 12, 
+    "vender_id": 12, 
+    "driver_name": "Church Baird", 
+    "no_of_seat": 30, 
+    "route_no": 1 
+   }, 
+   { 
+    "bus_id": 13, 
+    "vender_id": 13, 
+    "driver_name": "Manuela Hughes", 
+    "no_of_seat": 15, 
+    "route_no": 6 
+   }, 
+   { 
+    "bus_id": 14, 
+    "vender_id": 14, 
+    "driver_name": "Virgie Sullivan", 
+    "no_of_seat": 20, 
+    "route_no": 4 
+   }, 
+   { 
+    "bus_id": 15, 
+    "vender_id": 15, 
+    "driver_name": "Jewell Villarreal", 
+    "no_of_seat": 10, 
+    "route_no": 1 
+   }, 
+   { 
+    "bus_id": 16, 
+    "vender_id": 16, 
+    "driver_name": "Elliott Herman", 
+    "no_of_seat": 50, 
+    "route_no": 6 
+   }, 
+   { 
+    "bus_id": 17, 
+    "vender_id": 17, 
+    "driver_name": "Allison Warner", 
+    "no_of_seat": 50, 
+    "route_no": 7 
+   }, 
+   { 
+    "bus_id": 18, 
+    "vender_id": 18, 
+    "driver_name": "Glenn Pope", 
+    "no_of_seat": 50, 
+    "route_no": 1 
+   }, 
+   { 
+    "bus_id": 19, 
+    "vender_id": 19, 
+    "driver_name": "Flossie Roach", 
+    "no_of_seat": 30, 
+    "route_no": 6 
+   }, 
+   { 
+    "bus_id": 20, 
+    "vender_id": 20, 
+    "driver_name": "Waters Knox", 
+    "no_of_seat": 10, 
+    "route_no": 1 
+   }, 
+   { 
+    "bus_id": 21, 
+    "vender_id": 21, 
+    "driver_name": "Velma Roberson", 
+    "no_of_seat": 20, 
+    "route_no": 5 
+   } 
+]}

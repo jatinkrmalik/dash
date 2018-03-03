@@ -1,12 +1,11 @@
 from pymongo import MongoClient
 
 WTF_CSRF_ENABLED = True
-SECRET_KEY = 'Put your secret key here'
-DB_NAME = 'blog'
+SECRET_KEY = 'secret-key'
+DB_NAME = 'sanjay'
 
 DATABASE = MongoClient()[DB_NAME]
-POSTS_COLLECTION = DATABASE.posts
-USERS_COLLECTION = DATABASE.users
-SETTINGS_COLLECTION = DATABASE.settings
+USERS_COLLECTION = DATABASE.admin
+
 
 DEBUG = True

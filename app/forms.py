@@ -1,10 +1,13 @@
-from flask.ext.wtf import Form
+from flask_wtf import Form
 from wtforms import StringField, PasswordField
-from wtforms.validators import DataRequired
+from wtforms.validators import DataRequired, Length
 
 
 class LoginForm(Form):
-    """Login form to access writing and settings pages"""
+    username = StringField("Username", validators=[DataRequired(), Length(min=4, max=50)])
+    password = PasswordField("Password", validators=[DataRequired(), Length(min=4, max=50)])
 
-    username = StringField('Username', validators=[DataRequired()])
-    password = PasswordField('Password', validators=[DataRequired()])
+
+class RegisterForm(Form):
+    username = StringField("Username", validators=[DataRequired(), Length(min=4, max=50)])
+    password = PasswordField("Password", validators=[DataRequired(), Length(min=4, max=50)])
